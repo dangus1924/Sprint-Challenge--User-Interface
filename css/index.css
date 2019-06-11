@@ -66,6 +66,22 @@ p {
     line-height: 1.4;
 }
 
+nav{
+    text-decoration: none;
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 50px;
+    color: black;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +93,11 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-img{
+   padding: 15px;
+    margin: 4px;
 }
 
 .top-content .text-container {
@@ -104,13 +125,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:  black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .one {
+    background-color: teal;
+}
+
+.middle-content .boxes .two {
+    background-color: gold;
+}
+
+.middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+
+.middle-content .boxes .ten{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +206,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.container .about-page{
+    width: 800px;
+    margin: 0 auto; 
+}
+
+button{
+    background-color: white;
+    border: solid black;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 120px;
+    height: 35px;
+}
+
+.top-contain{
+    display: flex;
+    width: 740px;
+    height: 1000px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+.top-contain .child-item{
+    width: 300px;
+	/* height: 10px; */
+    margin: 5px;
+  }
